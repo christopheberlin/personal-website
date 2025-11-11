@@ -31,7 +31,7 @@ export default function Page() {
       {/* Retro glitter gradient background */}
       <div className="fixed inset-0 -z-10">
         <div className="absolute inset-0 bg-[radial-gradient(1200px_600px_at_20%_-10%,#c4b5fd_0%,transparent_60%),radial-gradient(800px_500px_at_100%_10%,#f0abfc_0%,transparent_60%),radial-gradient(1000px_800px_at_40%_110%,#93c5fd_0%,transparent_60%)]" />
-        <div className="absolute inset-0 mix-blend-overlay opacity-40 bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"><circle cx=\"2\" cy=\"2\" r=\"1\" fill=\"%23ffffff\" opacity=\"0.6\"/><circle cx=\"32\" cy=\"32\" r=\"1\" fill=\"%23ffffff\" opacity=\"0.4\"/><circle cx=\"60\" cy=\"8\" r=\"1\" fill=\"%23ffffff\" opacity=\"0.5\"/></svg>')] animate-[twinkle_6s_linear_infinite]" />
+        <div className="absolute inset-0 mix-blend-overlay opacity-40 pointer-events-none [background-image:radial-gradient(white_1px,transparent_1.5px)] [background-size:64px_64px] animate-[twinkle_6s_linear_infinite]" />
       </div>
 
       {/* Top bar like old MySpace */}
@@ -292,3 +292,4 @@ export default function Page() {
     </div>
   );
 }
+
